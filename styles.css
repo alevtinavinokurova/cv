@@ -1,0 +1,86 @@
+styles.css
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg'); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center; 
+}
+.header {
+    margin: 40px 0;
+    padding: 200px;
+    border-radius: 10px;
+  }
+  
+  .header__avatar {
+    border-radius: 50%;
+  }
+  
+  .header__title {
+    margin: 30px 0 10px 0;
+    font-size: 32px;
+    line-height: 1.2;
+    font-family: "Helvetica Neue";
+  }
+header {
+    text-align: center;
+    padding: 200px 0;
+    animation-name: moveRight;
+    animation-duration: 2s;
+}
+.header, .about {
+    animation: fadeIn 0.6s ease forwards;
+}
+header h1 {
+    font-size: 36px;
+    margin-bottom: 200px;
+    text-align: center; 
+}
+header p {
+    font-size: 24px;
+}
+main {
+    max-width: 800px;
+    margin: 200px auto;
+    padding: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+section {
+    margin-bottom: 200px;
+}
+
+section h2 {
+    font-size: 28px;
+    margin-bottom: 200px;
+}
+
+.contact-info ul,
+.skills ul {
+    list-style-type: none;
+    padding-left: 200;
+}
+
+.project {
+    margin-bottom: 200px;
+}
+.projects h2 {
+    animation: fadeIn 0.6s ease forwards;
+}
+.project h3 {
+    font-size: 22px;
+    margin-bottom: 200px;
+}
+footer {
+    text-align: center;
+    padding: 200px;
+}
